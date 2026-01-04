@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    This array defines the initial values for the RangeSlider.
+    The two items correspond to the starting minimum (e.g., 5000.0)
+    and starting maximum (e.g., 15000.0) values displayed on the slider.
+    These must be floats (numbers with a decimal point).
+    -->
+    <array name="initial_range_slider_values">
+        <item>5000.0</item>
+        <item>15000.0</item>
+    </array>
+</resources>

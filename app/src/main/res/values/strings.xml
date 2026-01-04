@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RoomFinder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="occupancy_options">
+        <item>Single Occupancy</item>
+        <item>Double Occupancy</item>
+        <item>Triple Occupancy</item>
+        <item>Quadruple/Shared</item>
+    </string-array>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    android:backgroundTint="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <!-- Profile / Room Image (Circular) --><com.google.android.material.card.MaterialCardView
+        android:id="@+id/profile_image_card"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="0dp">
+        <ImageView
+            android:id="@+id/iProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user"
+            android:contentDescription="Profile Picture"/>
+    </com.google.android.material.card.MaterialCardView>
+
+        <!-- Name/Title, Location, Rent (if applicable) --><LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/tTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Vikarm Singh"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Location: HSR Layout, Bangalore"
+            android:textSize="13sp"
+            android:textColor="#777777"
+            android:layout_marginTop="2dp"/>
+
+        <!-- Rent (Optional, visible for 2nd and 4th card example) --><TextView
+        android:id="@+id/tvRent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="₹ 8,500 /month"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginTop="2dp"
+        tools:visibility="visible"
+        android:visibility="gone"/>
+    </LinearLayout>
+
+        <!-- Action Button (Contact or Heart) --><com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        tools:text="Contact"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:cornerRadius="24dp"
+        android:backgroundTint="#6200EE"
+        android:layout_marginStart="16dp"
+        tools:visibility="visible"
+        android:visibility="gone"/>
+
+        <!-- Favorite Icon (Alternative to button, for 2nd and 4th card example) --><ImageView
+        android:id="@+id/ivFavoriteIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_heart_outline"
+        app:tint="#FF6B6B"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Favorite"
+        tools:visibility="visible"
+        android:visibility="gone"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "48491639520",
+    "firebase_url": "https://roommates-8198d-default-rtdb.firebaseio.com",
+    "project_id": "roommates-8198d",
+    "storage_bucket": "roommates-8198d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48491639520:android:17618159695eacfea75685",
+        "android_client_info": {
+          "package_name": "com.develophub.roomfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABEu3kZExpChqecFbZolThd0h2LLsVXXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48491639520:android:ff023859dc5fda0ca75685",
+        "android_client_info": {
+          "package_name": "com.example.roommates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABEu3kZExpChqecFbZolThd0h2LLsVXXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

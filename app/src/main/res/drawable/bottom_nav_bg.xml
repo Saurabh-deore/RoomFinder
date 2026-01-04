@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- All corners round -->
+    <corners android:radius="35dp" />
+
+    <!-- Soft background color -->
+    <solid android:color="#F8F0F0" />
+
+    <!-- Padding for better look -->
+    <padding
+        android:left="12dp"
+        android:right="12dp"
+        android:top="12dp"
+        android:bottom="12dp" />
+
+    <!-- SHADOW for floating look -->
+    <size android:height="65dp"/>
+</shape>
